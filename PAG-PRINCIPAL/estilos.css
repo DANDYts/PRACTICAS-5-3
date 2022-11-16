@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("../font/Minecrafter.Reg.ttf");
+  }
+  
+  @font-face {
+    font-family: "Minecraftia";
+    src: url("../font/Minecraftia-Regular.ttf");
+  }
+  
+  body {
+    background: url(https://fashionsista.co/wallpaper/wallpaper/20201112/black-textured-background-download-free-amazing-full-hd-preview.jpg);
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Minecraft";
+  }
+  
+  h2 {
+    font-family: "Minecraftia";
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    display: inline-flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color:aqua;
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid white;
+    font-family: "Minecraftia";
+  }
+  
+  a:hover {
+    box-shadow: 0 0 100px aqua;
+    transform: scale(1.1);
+  }
+  
